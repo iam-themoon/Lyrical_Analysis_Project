@@ -1,0 +1,1 @@
+rds_connection_string = "postgresql://songlyrics:gatechfinalproject@lyrical-analysis.cxe3nmyieexj.us-east-1.rds.amazonaws.com:5432/musicalDbanalytics"
