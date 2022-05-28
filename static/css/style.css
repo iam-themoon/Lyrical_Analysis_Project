@@ -1,0 +1,30 @@
+#container {
+  height: 500px;
+  width: 700px;
+  margin: 0;
+}
+
+.container-fluid{
+  width: 100%;
+}
+
+#wrapper {
+  height: 500px;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: visible;
+}
+
+@media screen and (max-width: 920px) {
+  #wrapper,
+  #container,
+  #row-info {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin: 0.5em 0;
+    padding: 0;
+    border: none;
+  }
+}
