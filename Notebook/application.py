@@ -1,8 +1,9 @@
 from flask import Flask, jsonify
 from sqlalchemy import create_engine
-import json
+import jsone
 application = Flask(__name__)
-rds_connection_string = "postgresql://songlyrics:gatechfinalproject@lyrical-analysis.cxe3nmyieexj.us-east-1.rds.amazonaws.com:5432/musicalDbanalytics"
+from API_keys import rds_key
+rds_connection_string = f"postgresql://songlyrics:{rds_key}@lyrical-analysis.cxe3nmyieexj.us-east-1.rds.amazonaws.com:5432/musicalDbanalytics"
 engine = create_engine(rds_connection_string)
 # print a nice greeting.
 @application.route("/")
@@ -33,6 +34,4 @@ if __name__ == "__main__":
     application.debug = True
     application.run()
 
-
-#http://127.0.0.1:5000/api/v1.0/masterlyrics
-    
+ 
