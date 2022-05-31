@@ -21,6 +21,12 @@ Whereas, Mariah Carey's top 25 words are more associated with love and relations
 
 ## Bigram & Trigram Lyrical Analysis
 [Here](https://eminemmariahscatter.s3.amazonaws.com/index.html.html) is an interactive plot that allows you to see where Mariah and Eminem share the most lyrics and where they being to converge. 
+Using Ngram and Scatter Text Analysis via database interative seaerching html page via link above, which shows 
+Mostly shareed and uniquely obtained the word by Ngram above from Mariah and Eminem word is showed by the scatter chart below, and is made as html for searching the term and the relevant songs' lyrics
+# Scatter Charts
+![Scatter-Ngram-Chart](/scattertext_by_eminem.jpg)
+
+
 
 Bigram and Trigram's allowed for the analysis of phrases made up of either 2 or 3 words.
 The bigram revealed most 2-phrases featured in Mariah's music is focused on relationships, whereas there's more variet in Eminem's lyrics, but tonaly the lyrics are darker in tone, with phrases like 'drop bomb' and 'let go'.
